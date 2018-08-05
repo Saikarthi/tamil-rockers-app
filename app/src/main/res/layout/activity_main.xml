@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#2E2E2E"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tam"
+        android:onClick="call1"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:background="#5858FA"
+
+        android:text="tamilrockers" />
+
+    <Button
+        android:id="@+id/gol"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tam"
+        android:layout_centerHorizontal="true"
+        android:background="#5858FA"
+        android:onClick="call2"
+        android:text="goolge">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/yts"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gol"
+        android:layout_centerHorizontal="true"
+        android:background="#5858FA"
+        android:onClick="call3"
+        android:text="yts">
+
+    </Button>
+
+</RelativeLayout>
